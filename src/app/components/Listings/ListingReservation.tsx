@@ -3,7 +3,7 @@
 import { Range } from "react-date-range";
 
 import Button from "../Button";
-import Calendar from "../Inputs/Calendar";
+import Calendar from "../inputs/Calendar";
 
 interface ListingReservationProps {
 	price: number;

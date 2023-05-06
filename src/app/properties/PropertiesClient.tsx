@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { SafeListing, SafeUser } from "@/app/types";
 import Heading from "@/app/components/Heading";
 import Container from "@/app/components/Container";
-import ListingCard from "@/app/components/Listings/ListingCard";
+import ListingCard from "@/app/components/listings/ListingCard";
 
 interface PropertiesClientProps {
 	properties: SafeListing[];

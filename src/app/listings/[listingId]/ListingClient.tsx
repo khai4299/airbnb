@@ -11,10 +11,10 @@ import useLoginModal from "@/app/hooks/useLoginModal";
 import { SafeListing, SafeReservation, SafeUser } from "@/app/types";
 
 import Container from "@/app/components/Container";
-import { categories } from "@/app/components/Navbar/Categories";
-import ListingHead from "@/app/components/Listings/ListingHead";
-import ListingInfo from "@/app/components/Listings/ListingInfo";
-import ListingReservation from "@/app/components/Listings/ListingReservation";
+import { categories } from "@/app/components/navbars/Categories";
+import ListingHead from "@/app/components/listings/ListingHead";
+import ListingInfo from "@/app/components/listings/ListingInfo";
+import ListingReservation from "@/app/components/listings/ListingReservation";
 
 const initialDateRange = {
 	startDate: new Date(),
